@@ -89,8 +89,8 @@ class Button(QPushButton):
                                 font-weight: bold;
                                 ''')
         
-        if(self.button_type == 'running'):
-            self.setText('running')
+        if(self.button_type == 'pause'):
+            self.setText('Pause')
             self.setStyleSheet('''
                                 border-radius: 5px;
                                 background-color: #DAA520;
